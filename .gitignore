@@ -1,0 +1,5 @@
+node_modules/
+cr
+.env
+
+dist/

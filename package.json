@@ -1,0 +1,24 @@
+{
+  "name": "doc-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extract": "tsx src/extract-text.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.105.0",
+    "dotenv": "^17.4.2",
+    "pdf-parse": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.22.4"
+  }
+}
